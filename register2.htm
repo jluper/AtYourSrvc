@@ -1,0 +1,518 @@
+<HTML>
+
+
+
+<HEAD>
+
+<META http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+<TITLE>@ your service Concierge - Register</TITLE>
+
+<META name="keywords" content="Concierge,Services,Winston-Salem,North Carolina,Corporate Concierge,Errands,Relocation,Relocation Services">
+
+<META name="description" content="Full-Service Corporate and Personal Concierge Service serving North Carolina">
+
+<META name="GENERATOR" content="Microsoft FrontPage 5.0">
+
+<META name="ProgId" content="FrontPage.Editor.Document">
+
+
+<script language="javascript" src="sniffer.js">
+
+//For this and 100's more DHTML scripts, visit http://www.dynamicdrive.com
+
+</script>
+
+<script language="javascript1.2" src="custom.js"></script>
+<script language="javascript1.2" src="style.js"></script>
+
+
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+//-->
+</script>
+<meta name="Microsoft Border" content="t">
+</HEAD>
+
+
+
+<BODY onload="init()" bgcolor="#CCFFCC" topmargin="0" leftmargin="5"><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+<P><a name="top" href="http://www.atyoursrvc.com/index.html">
+<IMG border="0" src="images/ays_logo_sm_70.jpg" alt="At Your Service Home Page" align="top" width="444" height="127"></a> 
+</A></P>
+
+</td></tr><!--msnavigation--></table><!--msnavigation--><table dir="ltr" border="0" cellpadding="0" cellspacing="0" width="100%"><tr><!--msnavigation--><td valign="top">
+
+
+
+<FONT size="1"><P>&nbsp;</P></FONT>
+<P><IMG border="0" src="images/Register_With_Us_Header.jpg" width="601" height="61"> </P>
+
+<P><FONT face="Arial" size="2"><B>&nbsp;&nbsp;&nbsp; The form below is for new clients to submit their initial profile or existing clients to update<BR>
+
+&nbsp;&nbsp;&nbsp; their current profile.</B></FONT></P>
+
+
+
+
+<!--webbot BOT="GeneratedScript" PREVIEW=" " startspan --><script Language="JavaScript" Type="text/javascript"><!--
+function FrontPage_Form1_Validator(theForm)
+{
+
+  var checkOK = "0123456789-.";
+  var checkStr = theForm.Zip.value;
+  var allValid = true;
+  var validGroups = true;
+  var decPoints = 0;
+  var allNum = "";
+  for (i = 0;  i < checkStr.length;  i++)
+  {
+    ch = checkStr.charAt(i);
+    for (j = 0;  j < checkOK.length;  j++)
+      if (ch == checkOK.charAt(j))
+        break;
+    if (j == checkOK.length)
+    {
+      allValid = false;
+      break;
+    }
+    if (ch == ".")
+    {
+      allNum += ".";
+      decPoints++;
+    }
+    else
+      allNum += ch;
+  }
+  if (!allValid)
+  {
+    alert("Please enter only digit characters in the \"Zip\" field.");
+    theForm.Zip.focus();
+    return (false);
+  }
+
+  if (decPoints > 1 || !validGroups)
+  {
+    alert("Please enter a valid number in the \"Zip\" field.");
+    theForm.Zip.focus();
+    return (false);
+  }
+
+  var checkOK = "0123456789--";
+  var checkStr = theForm.WorkPhone.value;
+  var allValid = true;
+  var validGroups = true;
+  for (i = 0;  i < checkStr.length;  i++)
+  {
+    ch = checkStr.charAt(i);
+    for (j = 0;  j < checkOK.length;  j++)
+      if (ch == checkOK.charAt(j))
+        break;
+    if (j == checkOK.length)
+    {
+      allValid = false;
+      break;
+    }
+  }
+  if (!allValid)
+  {
+    alert("Please enter only digit and \"-\" characters in the \"WorkPhone\" field.");
+    theForm.WorkPhone.focus();
+    return (false);
+  }
+
+  var checkOK = "0123456789--";
+  var checkStr = theForm.HomePhone.value;
+  var allValid = true;
+  var validGroups = true;
+  for (i = 0;  i < checkStr.length;  i++)
+  {
+    ch = checkStr.charAt(i);
+    for (j = 0;  j < checkOK.length;  j++)
+      if (ch == checkOK.charAt(j))
+        break;
+    if (j == checkOK.length)
+    {
+      allValid = false;
+      break;
+    }
+  }
+  if (!allValid)
+  {
+    alert("Please enter only digit and \"-\" characters in the \"HomePhone\" field.");
+    theForm.HomePhone.focus();
+    return (false);
+  }
+
+  var checkOK = "0123456789--";
+  var checkStr = theForm.MobilePhone.value;
+  var allValid = true;
+  var validGroups = true;
+  for (i = 0;  i < checkStr.length;  i++)
+  {
+    ch = checkStr.charAt(i);
+    for (j = 0;  j < checkOK.length;  j++)
+      if (ch == checkOK.charAt(j))
+        break;
+    if (j == checkOK.length)
+    {
+      allValid = false;
+      break;
+    }
+  }
+  if (!allValid)
+  {
+    alert("Please enter only digit and \"-\" characters in the \"MobilePhone\" field.");
+    theForm.MobilePhone.focus();
+    return (false);
+  }
+
+  var checkOK = "0123456789--";
+  var checkStr = theForm.Fax.value;
+  var allValid = true;
+  var validGroups = true;
+  for (i = 0;  i < checkStr.length;  i++)
+  {
+    ch = checkStr.charAt(i);
+    for (j = 0;  j < checkOK.length;  j++)
+      if (ch == checkOK.charAt(j))
+        break;
+    if (j == checkOK.length)
+    {
+      allValid = false;
+      break;
+    }
+  }
+  if (!allValid)
+  {
+    alert("Please enter only digit and \"-\" characters in the \"Fax\" field.");
+    theForm.Fax.focus();
+    return (false);
+  }
+  return (true);
+}
+//--></script><!--webbot BOT="GeneratedScript" endspan --><FORM method="POST" onsubmit="return FrontPage_Form1_Validator(this)" 
+name="FrontPage_Form1" language="JavaScript" action="_vti_bin/shtml.exe/register2.htm" webbot-action="--WEBBOT-SELF--">
+
+   <!--webbot bot="SaveResults" s-email-format="TEXT/PRE" s-email-address="Solutions@atyoursrvc.com" b-email-label-fields="TRUE" b-email-subject-from-field="FALSE" s-email-subject="Registration" s-builtin-fields="REMOTE_USER HTTP_USER_AGENT" s-form-fields="FirstName LastName Address City State Zip Company Location Title WorkPhone HomePhone MobilePhone Fax Email SpousesName Comments " u-confirmation-url="register_confirmation.htm" startspan --><input TYPE="hidden" NAME="VTI-GROUP" VALUE="0"><!--webbot bot="SaveResults" endspan i-checksum="43374" -->
+
+   <DIV align="left">
+
+      <TABLE border="0" width="652" height="1" cellspacing="0" cellpadding="2" style="border-collapse: collapse" bordercolor="#111111">
+
+         <TR>
+
+            <TD width="1" height="12" align="left"></TD>
+
+            <TD width="354" height="12" align="left">
+            <FONT face="Arial"><b><font size="2">First Name</font></b></FONT></TD>
+
+            <TD width="673" height="12" align="left">
+            <FONT face="Arial"><b><INPUT type="text" name="FirstName" size="16" tabindex="1"></b></FONT></TD>
+
+         </TR>
+
+         <TR>
+
+            <TD width="1" height="23" align="left"></TD>
+
+            <TD width="259" height="23" align="left">
+            <font face="Arial"><b><font size="2">Last Name</font></b></font></TD>
+
+            <TD width="702" height="23" align="left">
+            <font face="Arial"><b>
+
+            <INPUT type="text" name="LastName" size="16" tabindex="2"></b></font></TD>
+
+         </TR>
+
+         <TR>
+
+            <TD width="1" height="22" align="left"></TD>
+
+            <TD width="259" height="22" align="left">
+            <font face="Arial"><b><font size="2">Address</font></b></font></TD>
+
+            <TD width="702" height="22" align="left">
+            <font face="Arial"><b>
+
+            <INPUT type="text" name="Address" size="44" tabindex="3"></b></font></TD>
+
+         </TR>
+
+         <TR>
+
+            <TD width="1" height="31" align="left"></TD>
+
+            <TD width="418" height="31" align="left">
+            <font face="Arial"><b><font size="2">City&nbsp;&nbsp;</font></b></font></TD>
+
+            <TD width="543" height="31" align="left">
+            <font face="Arial"><b>
+
+            <INPUT type="text" name="City" size="20" tabindex="4"></b></font></TD>
+
+         </TR>
+
+         <TR>
+
+            <TD width="1" height="24" align="left"></TD>
+
+            <TD width="418" height="24" align="left">
+            <font face="Arial"><b><font size="2">State</font></b></font></TD>
+
+            <TD width="543" height="24" align="left">
+            <font face="Arial"><b>
+
+            <SELECT size="1" name="State" tabindex="5">
+
+            <OPTION selected>NC</OPTION>
+
+            <OPTION>SC</OPTION>
+
+            <OPTION>VA</OPTION>
+
+            <OPTION>GA</OPTION>
+
+            <OPTION>TN</OPTION>
+
+            </SELECT></b></font></TD>
+
+         </TR>
+
+         <TR>
+
+            <TD width="1" height="28" align="left"></TD>
+
+            <TD width="418" height="28" align="left">
+            <font face="Arial"><b><font size="2">Zip</font></b></font></TD>
+
+            <TD width="543" height="28" align="left">
+            <font face="Arial"><b>
+            <!--webbot bot="Validation" s-data-type="Number" s-number-separators="x." --><INPUT type="text" name="Zip" size="10" tabindex="6"></b></font></TD>
+
+         </TR>
+
+         <TR>
+
+            <TD width="1" height="1" align="left" bgcolor="#990099"></TD>
+
+            <TD width="418" height="1" align="left" bgcolor="#990099"></TD>
+
+            <TD width="543" height="1" align="left" bgcolor="#990099"></TD>
+
+         </TR>
+
+         <TR>
+
+            <TD width="1" height="1" align="left"></TD>
+
+            <TD width="418" height="1" align="left">
+            <font face="Arial"><b><font size="2">Company</font></b></font></TD>
+
+            <TD width="543" height="1" align="left">
+            <font face="Arial"><b>
+
+            <INPUT type="text" name="Company" size="20" tabindex="7"></b></font></TD>
+
+         </TR>
+
+         <TR>
+
+            <TD width="1" height="17" align="left"></TD>
+
+            <TD width="418" height="17" align="left">
+            <font face="Arial"><b><font size="2">Location</font></b></font></TD>
+
+            <TD width="543" height="17" align="left">
+            <font face="Arial"><b>
+			
+			<INPUT type="text" name="Location" size="20" tabindex="8"></b></font></TD>
+
+         </TR>
+
+         <TR>
+
+            <TD width="1" height="17" align="left"></TD>
+
+            <TD width="418" height="17" align="left">
+            <font face="Arial"><b><font size="2">Title&nbsp;</font></b></font></TD>
+
+            <TD width="543" height="17" align="left">
+            <font face="Arial"><b>
+
+            <INPUT type="text" name="Title" size="20" tabindex="9"></b></font></TD>
+
+         </TR>
+
+         <TR>
+
+            <TD width="1" height="4" align="left"></TD>
+
+            <TD width="418" height="4" align="left">
+            <font face="Arial"><b><font size="2">Work Phone</font></b></font></TD>
+
+            <TD width="543" height="4" align="left">
+            <font face="Arial"><b>
+            <!--webbot bot="Validation" s-data-type="String" b-allow-digits="TRUE" s-allow-other-chars="-" --><INPUT type="text" name="WorkPhone" size="13" tabindex="10"></b></font></TD>
+
+         </TR>
+
+         <TR>
+
+            <TD width="1" height="6" align="left"></TD>
+
+            <TD width="418" height="6" align="left">
+            <font face="Arial"><b><font size="2">Home Phone</font></b></font></TD>
+
+            <TD width="543" height="6" align="left">
+            <font face="Arial"><b>
+            <!--webbot bot="Validation" s-data-type="String" b-allow-digits="TRUE" s-allow-other-chars="-" --><INPUT type="text" name="HomePhone" size="13" tabindex="11"></b></font></TD>
+
+         </TR>
+
+         <TR>
+
+            <TD width="1" height="6" align="left"></TD>
+
+            <TD width="418" height="6" align="left">
+            <font face="Arial"><b><font size="2">Mobile Phone</font></b></font></TD>
+
+            <TD width="543" height="6" align="left">
+            <font face="Arial"><b>
+            <!--webbot bot="Validation" s-data-type="String" b-allow-digits="TRUE" s-allow-other-chars="-" --><INPUT type="text" name="MobilePhone" size="13" tabindex="12"></b></font></TD>
+
+         </TR>
+
+         <TR>
+
+            <TD width="1" height="1" align="left"></TD>
+
+            <TD width="418" height="1" align="left">
+            <font face="Arial"><b><font size="2">Fax</font></b></font></TD>
+
+            <TD width="543" height="1" align="left">
+            <font face="Arial"><b>
+            <!--webbot bot="Validation" s-data-type="String" b-allow-digits="TRUE" s-allow-other-chars="-" --><INPUT type="text" name="Fax" size="13" tabindex="13"></b></font></TD>
+
+         </TR>
+
+         <TR>
+
+            <TD width="1" height="1" align="left"></TD>
+
+            <TD width="418" height="1" align="left">
+            <font face="Arial"><b><font size="2">Email</font></b></font></TD>
+
+            <TD width="543" height="1" align="left">
+            <font face="Arial"><b>
+
+            <INPUT type="text" name="Email" size="32" tabindex="14"></b></font></TD>
+
+         </TR>
+
+         <TR>
+
+            <TD width="1" height="1" align="left"></TD>
+
+            <TD width="418" height="1" align="left">
+            <b>
+            <font face="Arial" size="2">Spouse/Partner Name <br>
+            </font>
+            <font face="Arial" size="1">(if applicable)</font></b></TD>
+
+            <TD width="543" height="1" align="left">
+            <font face="Arial" size="2"><b>
+
+            <INPUT type="text" name="SpousesName" size="20" tabindex="15"></b></font></TD>
+
+         </TR>
+
+         <TR>
+
+            <TD width="1" height="1" align="left"></TD>
+
+            <TD width="418" height="1" align="left">
+            <font face="Arial"><b><font size="2">I am interested in:</font></b></font></TD>
+
+            <TD width="543" height="1" align="left">
+            <font face="Arial"><b>
+            <input type="checkbox" name="ConciergeService" value="ON" tabindex="16"><font size="2">Concierge 
+            Service&nbsp; <br>
+            </font>
+            <input type="checkbox" name="HomeImprovement" value="ON" tabindex="17"><font size="2">Home 
+            Improvement&nbsp;&nbsp; </font></b></font><b>
+            <br>
+            <input type="checkbox" name="Other" value="ON" tabindex="18"></b><font size="2" face="Arial"><b>Other 
+            (specify)
+            <input type="text" name="OtherInterest" size="30" tabindex="19"></b></font></TD>
+
+         </TR>
+
+         <TR>
+
+            <TD width="1" height="1" align="left"></TD>
+
+            <TD width="418" height="1" align="left">
+            <b>
+            <font face="Arial" size="2">Preferred Contact Method</font></b></TD>
+
+            <TD width="543" height="1" align="left">
+            <b>
+            <font face="Arial" size="2">
+            <select size="1" name="BestContactMethod" tabindex="20">
+            <option selected>Work Phone</option>
+            <option>Home Phone</option>
+            <option>Cell Phone</option>
+            <option>Email</option>
+            </select></font></b></TD>
+
+         </TR>
+
+         <TR>
+
+            <TD width="1" height="1" align="left"></TD>
+
+            <TD width="418" height="1" align="left">
+            <font face="Arial"><b><font size="2">Additional Comments</font></b></font></TD>
+
+            <TD width="543" height="1" align="left">
+            <font face="Arial"><b>
+
+            <TEXTAREA rows="2" name="Comments" cols="50" tabindex="21"></TEXTAREA></b></font></TD>
+
+         </TR>
+
+
+         <TR>
+
+            <TD width="1" height="9" valign="top" align="left"></TD>
+
+            <TD width="961" height="9" valign="top" align="left" colspan="2">
+
+            <HR>
+
+            </TD>
+
+         </TR>
+
+      </TABLE>
+
+  
+   <P>&nbsp;&nbsp;&nbsp; <INPUT type="submit" value="Submit" name="B1" tabindex="73"> <INPUT type="reset" value="Reset" name="B2" tabindex="74"></P>
+
+</FORM>
+
+<!-- Top Navigational Bar Script -->
+<script language="javascript1.2" src="menu.js">
+</script>
+
+
+<!--msnavigation--></td></tr><!--msnavigation--></table></BODY>
+
+</HTML>

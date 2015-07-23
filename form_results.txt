@@ -1,0 +1,79 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>New Page 1</title>
+<meta name="Microsoft Border" content="tb, default">
+</head>
+
+<body>
+
+</body>
+
+</html>
+<hr>
+<p><b>FirstName: </b>Jack<br>
+<b>LastName: </b>Luper<br>
+<b>Address: </b>143 Linbrook Drive<br>
+<b>City: </b>W-S<br>
+<b>State: </b>NC<br>
+<b>Zip: </b>27106<br>
+<b>Company: </b>Qualcomm<br>
+<b>Title: </b>Director, Engineering<br>
+<b>DateOfHire: </b>03/01/01<br>
+<b>WorkPhone: </b>336-323-3373<br>
+<b>HomePhone: </b>336-765-8746<br>
+<b>MobilePhone: </b>336-202-0067<br>
+<b>Fax: </b><br>
+<b>Email: </b>jfluper@bellsouth.net<br>
+<b>PrudentialSalesAgent: </b><br>
+<b>Birthdate: </b>11/06/54<br>
+<b>Gender: </b>M<br>
+<b>MaritalStatus: </b>M<br>
+<b>SpousesName: </b>Sherry<br>
+<b>SpousesBirthdate: </b>03/19/56<br>
+<b>SpousesGender: </b>F<br>
+<b>ChildName1: </b><br>
+<b>ChildBirthdate1: </b><br>
+<b>ChildGender1: </b><br>
+<b>ChildName2: </b><br>
+<b>ChildBirthdate2: </b><br>
+<b>ChildGender2: </b><br>
+<b>ChildName3: </b><br>
+<b>ChildBirthdate3: </b><br>
+<b>ChildGender3: </b><br>
+<b>ChildName4: </b><br>
+<b>ChildBirthdate4: </b><br>
+<b>ChildGender4: </b><br>
+<b>AnniversaryDate: </b>03/20/79<br>
+<b>Pets: </b>Duke,Scooter,Doozy,Katarina<br>
+<b>Keydate1: </b>03/19/56<br>
+<b>Keydate1Type: </b>Birthday<br>
+<b>Keydate1Description: </b>Sherry's Birthday<br>
+<b>KeyDate1DaysInAdvance: </b><br>
+<b>Keydate1DaysInAdvance: </b>10<br>
+<b>Keydate1NotifyBy: </b>Email<br>
+<b>Keydate2: </b><br>
+<b>Keydate2Type: </b>Birthday<br>
+<b>Keydate2Description: </b><br>
+<b>Keydate2DaysInAdvance: </b>10<br>
+<b>Keydate2NotifyBy: </b>Email<br>
+<b>Keydate3: </b><br>
+<b>Keydate3Type: </b>Birthday<br>
+<b>Keydate3Description: </b><br>
+<b>Keydate3DaysInAdvance: </b>10<br>
+<b>Keydate3NotifyBy: </b>Email<br>
+<b>Remote User: </b><br>
+<b>HTTP User Agent: </b>Mozilla/4.0 (compatible; MSIE 5.01; Windows 98)<br>
+</p>
+<h3>PersonalInterests</h3>
+<p>Dislike squalling kids...</p>
+<h3>SpousesInterests</h3>
+<p>Nag Jack</p>
+<h3>Comments</h3>
+<p></p>
+<!--webbot BOT="FormInsertHere"
+DESCR="The FrontPage FormInsertHere Component indicates the point in an HTML file where you want a default, Registration, or Discussion Component to insert new results."
+-->

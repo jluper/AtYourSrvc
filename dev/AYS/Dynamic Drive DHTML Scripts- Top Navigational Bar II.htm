@@ -1,0 +1,663 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0055)http://www.dynamicdrive.com/dynamicindex1/topnavbar.htm -->
+<HTML><HEAD><TITLE>Dynamic Drive DHTML Scripts- Top Navigational Bar II</TITLE>
+<META content="text/html; charset=windows-1252" http-equiv=Content-Type><!--Dynamic Drive DHTML Scripts, examples, and tutorials. Copyrighted 1998-->
+<META 
+content="IE 5 contains several enhancements to DHTML, two of which are the oncontextmenu event, and conditional HTML. Click here to see a demonstration of both." 
+name=description>
+<META 
+content="DHTML, oncontextmenu event, IE 5, DHTML in IE 5, conditional HTML" 
+name=keywords>
+<SCRIPT language=JavaScript 
+src="Dynamic Drive DHTML Scripts- Top Navigational Bar II_files/navcond.js"></SCRIPT>
+
+<SCRIPT language=JavaScript>
+
+var myNavBar1 = new NavBar(0);
+var dhtmlMenu;
+
+//define menu items (first parameter specifies main menu width, second specifies sub menu width in pixels)
+//add more menus simply by adding more "blocks" of same code below
+
+dhtmlMenu = new NavBarMenu(100, 0);
+dhtmlMenu.addItem(new NavBarMenuItem("Home", "http://dynamicdrive.com"));
+myNavBar1.addMenu(dhtmlMenu);
+
+dhtmlMenu = new NavBarMenu(100, 120);
+dhtmlMenu.addItem(new NavBarMenuItem("News", ""));
+dhtmlMenu.addItem(new NavBarMenuItem("CNN", "http://www.cnn.com"));
+dhtmlMenu.addItem(new NavBarMenuItem("MSNBC", "http://msnbc.com"));
+dhtmlMenu.addItem(new NavBarMenuItem("ABCNews", "http://www.abcnews.com"));
+myNavBar1.addMenu(dhtmlMenu);
+
+dhtmlMenu = new NavBarMenu(110, 120);
+dhtmlMenu.addItem(new NavBarMenuItem("Technology", ""));
+dhtmlMenu.addItem(new NavBarMenuItem("News.com", "http://www.news.com"));
+dhtmlMenu.addItem(new NavBarMenuItem("Techweb", "http://www.techweb.com"));
+dhtmlMenu.addItem(new NavBarMenuItem("Wired", "http://www.wired.com"));
+dhtmlMenu.addItem(new NavBarMenuItem("Dynamic Drive", "http://www.dynamicdrive.com"));
+myNavBar1.addMenu(dhtmlMenu);
+
+dhtmlMenu = new NavBarMenu(100, 150);
+dhtmlMenu.addItem(new NavBarMenuItem("Search", ""));
+dhtmlMenu.addItem(new NavBarMenuItem("Yahoo", "http://www.yahoo.com"));
+dhtmlMenu.addItem(new NavBarMenuItem("Alta Vista", "http://www.altavista.com"));
+dhtmlMenu.addItem(new NavBarMenuItem("Infoseek", "http://www.infoseek.com"));
+dhtmlMenu.addItem(new NavBarMenuItem("Excite", "http://www.excite.com"));
+dhtmlMenu.addItem(new NavBarMenuItem("HotBot", "http://www.hotbot.com"));
+myNavBar1.addMenu(dhtmlMenu);
+
+dhtmlMenu = new NavBarMenu(100, 150);
+dhtmlMenu.addItem(new NavBarMenuItem("Webmaster", ""));
+dhtmlMenu.addItem(new NavBarMenuItem("Dynamic Drive", "http://dynamicdrive.com"));
+dhtmlMenu.addItem(new NavBarMenuItem("Website Abstraction", "http://wsabstract.com"));
+dhtmlMenu.addItem(new NavBarMenuItem("Freewarejava.com", "http://freewarejava.com"));
+dhtmlMenu.addItem(new NavBarMenuItem("BrainJar", "http://brainjar.com"));
+myNavBar1.addMenu(dhtmlMenu);
+
+//set menu colors
+myNavBar1.setColors("#000000", "#000000", "#C0C0C0", "#ffffff", "#666666", "#000000", "#cccccc", "#ffffff", "#000080")
+
+//uncomment below line to center the menu (valid values are "left", "center", and "right"
+//myNavBar1.setAlign("center")
+
+var fullWidth;
+
+function init() {
+
+  // Get width of window, need to account for scrollbar width in Netscape.
+
+  fullWidth = getWindowWidth() 
+    - (isMinNS4 && getWindowHeight() < getPageHeight() ? 16 : 0);
+
+  myNavBar1.resize(fullWidth);
+  myNavBar1.create();
+  myNavBar1.setzIndex(2);
+}
+</SCRIPT>
+
+<META content="MSHTML 5.00.2919.6307" name=GENERATOR><meta name="Microsoft Border" content="none, default">
+</HEAD>
+<BODY 
+background="Dynamic Drive DHTML Scripts- Top Navigational Bar II_files/dynamicback2.gif" 
+bgColor=#ffffff leftMargin=0 onload=init() marginwidth="0">
+<P><BR></P>
+<TABLE border=0 cellPadding=0 cellSpacing=0 width=619>
+  <TBODY>
+  <TR>
+    <TD align=left vAlign=center width=144>
+      <P align=center><A href="http://dynamicdrive.com/"><IMG 
+      alt="Dynamic Drive DHTML code library!" border=0 height=50 
+      src="Dynamic Drive DHTML Scripts- Top Navigational Bar II_files/ddrivelogo.gif" 
+      width=133></A><BR><A href="http://dynamicdrive.com/"><FONT color=#000000 
+      face=Verdana><STRONG><SMALL><SMALL>Dynamicdrive.com</SMALL></SMALL></STRONG></FONT></A></P></TD>
+    <TD align=left vAlign=center width=5></TD>
+    <TD width=470>
+      <P align=center>
+      <SCRIPT language=JAVASCRIPT>
+    <!--
+    FlycastSite	= "DynamicDrive";
+    FlycastPage	= "DynamicDriveDHTMLscripts";
+    FlycastWidth	= 468;
+    FlycastHeight	= 60;
+    FlycastPrintTag	= true;
+    FlycastNewAd	= true;
+    FlycastEnableTargetWindow	= false;
+    FlycastKeyword	= "";
+    FlycastLoaded	= false;
+    FlycastVersion	= 3.6;
+    //-->
+    </SCRIPT>
+
+      <SCRIPT language=JAVASCRIPT 
+      src="Dynamic Drive DHTML Scripts- Top Navigational Bar II_files/Version3"></SCRIPT>
+
+      <SCRIPT language=JAVASCRIPT>
+    <!--
+	if (!FlycastLoaded) document.write('<A target="_top" HREF="http://ad-adex3.flycast.com/server/click/DynamicDrive/DynamicDriveDHTMLscripts/123"><IM' + 'G WIDTH=468 HEIGHT=60 BORDER=0 SRC="http://ad-adex3.flycast.com/server/ad/DynamicDrive/DynamicDriveDHTMLscripts/123"></A>');
+    //-->
+    </SCRIPT>
+      <NOSCRIPT><IFRAME frameBorder=0 height=60 marginHeight=0 marginWidth=0 
+      scrolling=no 
+      src="Dynamic Drive DHTML Scripts- Top Navigational Bar II_files/3766033.htm" 
+      width=468>
+	<A target="_top" HREF="http://ad-adex3.flycast.com/server/click/DynamicDrive/DynamicDriveDHTMLscripts/123"><IMG BORDER=0 WIDTH=468 HEIGHT=60 SRC="http://ad-adex3.flycast.com/server/img/DynamicDrive/DynamicDriveDHTMLscripts/123"></A>
+	</IFRAME></IFRAME></NOSCRIPT>
+      <DIV><FONT face=Arial><SMALL>Please visit our sponsor above 
+      <B>/\</B></SMALL></FONT></DIV></TD></TR>
+  <TR>
+    <TD align=left vAlign=center width=144></TD>
+    <TD align=left vAlign=center width=5></TD>
+    <TD width=470><BR>
+      <STYLE>.tablinks A:visited {
+	COLOR: blue
+}
+.tablinks A:hover {
+	COLOR: brown
+}
+</STYLE>
+
+      <TABLE border=0 cellPadding=0 cellSpacing=0 class=tablinks>
+        <TBODY>
+        <TR>
+          <TD rowSpan=2><IMG height=23 
+            src="Dynamic Drive DHTML Scripts- Top Navigational Bar II_files/menuleft.gif" 
+            width=6></TD>
+          <TD bgColor=#400000 height=1><IMG height=1 
+            src="Dynamic Drive DHTML Scripts- Top Navigational Bar II_files/spacer.gif" 
+            width=1></TD>
+          <TD rowSpan=2><IMG height=22 
+            src="Dynamic Drive DHTML Scripts- Top Navigational Bar II_files/menuright.gif" 
+            width=6></TD>
+          <TD rowSpan=2 width=7></TD>
+          <TD rowSpan=2><IMG height=23 
+            src="Dynamic Drive DHTML Scripts- Top Navigational Bar II_files/menuleft.gif" 
+            width=6></TD>
+          <TD bgColor=#400000 width=1><IMG height=1 
+            src="Dynamic Drive DHTML Scripts- Top Navigational Bar II_files/spacer.gif" 
+            width=1></TD>
+          <TD rowSpan=2><IMG height=22 
+            src="Dynamic Drive DHTML Scripts- Top Navigational Bar II_files/menuright.gif" 
+            width=6></TD>
+          <TD rowSpan=2 width=7></TD>
+          <TD rowSpan=2><IMG height=23 
+            src="Dynamic Drive DHTML Scripts- Top Navigational Bar II_files/menuleft.gif" 
+            width=6></TD>
+          <TD bgColor=#400000 height=1><IMG height=1 
+            src="Dynamic Drive DHTML Scripts- Top Navigational Bar II_files/spacer.gif" 
+            width=1></TD>
+          <TD rowSpan=2><IMG height=22 
+            src="Dynamic Drive DHTML Scripts- Top Navigational Bar II_files/menuright.gif" 
+            width=6></TD>
+          <TD rowSpan=2 width=7></TD>
+          <TD rowSpan=2><IMG height=23 
+            src="Dynamic Drive DHTML Scripts- Top Navigational Bar II_files/menuleft.gif" 
+            width=6></TD>
+          <TD bgColor=#400000><IMG height=1 
+            src="Dynamic Drive DHTML Scripts- Top Navigational Bar II_files/spacer.gif" 
+            width=1></TD>
+          <TD rowSpan=2><IMG height=22 
+            src="Dynamic Drive DHTML Scripts- Top Navigational Bar II_files/menuright.gif" 
+            width=6></TD>
+          <TD rowSpan=2 width=7></TD>
+          <TD rowSpan=2><IMG height=23 
+            src="Dynamic Drive DHTML Scripts- Top Navigational Bar II_files/menuleft.gif" 
+            width=6></TD>
+          <TD bgColor=#400000 height=1><IMG height=1 
+            src="Dynamic Drive DHTML Scripts- Top Navigational Bar II_files/spacer.gif" 
+            width=1></TD>
+          <TD rowSpan=2><IMG height=22 
+            src="Dynamic Drive DHTML Scripts- Top Navigational Bar II_files/menuright.gif" 
+            width=6></TD></TR>
+        <TR>
+          <TD bgColor=#eeeecc><A href="http://www.dynamicdrive.com/new.htm" 
+            style="TEXT-DECORATION: none"><STRONG><FONT 
+            face=Tahoma,Verdana>New</FONT></STRONG></A></TD>
+          <TD bgColor=#eeeecc><A href="http://www.dynamicdrive.com/hot.htm" 
+            style="TEXT-DECORATION: none"><STRONG><FONT 
+            face=Tahoma,Verdana>Hot</FONT></STRONG></A></TD>
+          <TD bgColor=#eeeecc><A 
+            href="http://wsabstract.com/cgi-bin/Ultimate.cgi" 
+            style="TEXT-DECORATION: none"><STRONG><FONT 
+            face=Tahoma,Verdana>Forum</FONT></STRONG></A></TD>
+          <TD bgColor=#eeeecc><A href="http://www.dynamicdrive.com/faqs.htm" 
+            style="TEXT-DECORATION: none"><STRONG><FONT 
+            face=Tahoma,Verdana>FAQ</FONT></STRONG></A></TD>
+          <TD bgColor=#eeeecc><A 
+            href="http://www.dynamicdrive.com/submitscript.htm" 
+            style="TEXT-DECORATION: none"><STRONG><FONT 
+            face=Tahoma,Verdana>Submit</FONT></STRONG></A></TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD align=left vAlign=center width=144></TD>
+    <TD align=left vAlign=center width=5></TD>
+    <TD width=470><FONT color=#ffffff>.</FONT></TD></TR></TBODY></TABLE>
+<TABLE border=0 cellPadding=0 cellSpacing=0 width="98%">
+  <TBODY>
+  <TR>
+    <TD align=left vAlign=top width=136><IMG alt="spacer.gif (807 bytes)" 
+      height=1 
+      src="C:\Inetpub\wwwroot\AtYourService\Dynamic Drive DHTML Scripts- Top Navigational Bar II_files\spacer(1).gif" 
+      width=135><BR>
+      <SCRIPT language=JavaScript1.2>
+var linkexchangefreq=Math.floor(Math.random()*11)
+if (linkexchangefreq>5)
+document.write('<style>.linkexchange{display:none}</style>')
+</SCRIPT>
+
+      <DIV align=center>
+      <CENTER>
+      <TABLE border=0 cellSpacing=0 width=134>
+        <TBODY>
+        <TR>
+          <TD width=4></TD>
+          <TD bgColor=#000000 width=132><FONT color=#ffffff 
+            face=Verdana><SMALL><STRONG>Featured 
+          Script</STRONG></SMALL></FONT></TD></TR>
+        <TR>
+          <TD width=4></TD>
+          <TD bgColor=#bffd97 width=132><FONT face=Verdana><STRONG><A 
+            href="http://www.dynamicdrive.com/dynamicindex12/earthquake.htm?feature"><SMALL>Earthquake!</SMALL></A><BR></STRONG><SMALL>Boom 
+            boom boom shake the browser with this script!</SMALL></FONT>
+            <P align=center><SMALL><SMALL><FONT face=Verdana>&lt;Sponsored 
+            By&gt;</FONT></SMALL></SMALL><BR><A 
+            href="http://wsabstract.com/"><IMG alt=Wsabstract.com border=0 
+            height=60 
+            src="Dynamic Drive DHTML Scripts- Top Navigational Bar II_files/wabutton.gif" 
+            width=120></A><FONT face=Verdana><BR><FONT 
+            color=#bffd97><SMALL>.</SMALL></FONT></FONT></P></TD></TR>
+        <TR>
+          <TD width=4></TD>
+          <TD bgColor=#000000 width=132><FONT color=#ffffff 
+            face=Verdana><SMALL><STRONG>Site Info</STRONG></SMALL></FONT></TD></TR>
+        <TR>
+          <TD width=4></TD>
+          <TD bgColor=#bffd97 width=132><FONT face=Verdana><A 
+            href="http://www.dynamicdrive.com/search.htm"><STRONG><SMALL>Search 
+            DD</SMALL></STRONG></A><BR><A 
+            href="http://tools.hitbox.com/bin/tellafriend/tellafriend.cgi?client_id=13713&amp;tool_instance_id=1&amp;action=tell"><STRONG><SMALL>Recommend 
+            DD</SMALL></STRONG></A><BR><A 
+            href="http://www.dynamicdrive.com/award"><STRONG><SMALL>Awards</SMALL></STRONG></A><BR><A 
+            href="http://www.dynamicdrive.com/award/ddaward.htm"><STRONG><SMALL>DD 
+            Award</SMALL></STRONG></A><BR><STRONG><A 
+            href="http://www.dynamicdrive.com/about/press.htm"><SMALL>Press 
+            Releases</SMALL></A><BR><A 
+            href="http://www.dynamicdrive.com/mediakit"><SMALL>Ad Media 
+            Kit</SMALL></A><BR><A 
+            href="http://www.dynamicdrive.com/contact.htm"><SMALL>Contact</SMALL></A><BR><FONT 
+            color=#bffd97><SMALL>.</SMALL></FONT></STRONG></FONT></TD></TR>
+        <TR>
+          <TD width=4></TD>
+          <TD bgColor=#000000 width=132><SMALL><STRONG><FONT color=#ffffff 
+            face=Verdana>Site Partners</FONT></STRONG></SMALL></TD></TR>
+        <TR>
+          <TD width=4></TD>
+          <TD bgColor=#bffd97 width=132><STRONG><FONT face=Verdana><A 
+            href="http://wsabstract.com/" onmouseout="window.status=''" 
+            onmouseover="window.status='http://dynamicdrive.com/cgi-bin/out.cgi?0';return true"><SMALL>JavaScript</SMALL></A> 
+            <A class=linkexchange 
+            href="http://www.freegraphicland.com/cgi-bin/rankem/rankem.cgi?action=in&amp;id=dynamic" 
+            onmouseout="window.status=''" 
+            onmouseover="window.status='http://dynamicdrive.com/cgi-bin/out.cgi?1';return true"><BR><SMALL>Free 
+            clipart</SMALL></A><BR></FONT><SMALL><FONT color=#bffd97 
+            face=Verdana>.</FONT></SMALL></STRONG></TD></TR>
+        <TR>
+          <TD width=4></TD>
+          <TD bgColor=#000000 width=132><FONT color=#ffffff 
+            face=Verdana><SMALL><STRONG>Link to DD</STRONG></SMALL></FONT></TD></TR>
+        <TR>
+          <TD width=4></TD>
+          <TD bgColor=#bffd97 width=132><SMALL><FONT face=Verdana>Please use 
+            the following image to link to Dynamic Drive:</FONT></SMALL>
+            <P align=center><A href="http://www.dynamicdrive.com/"><IMG 
+            alt=dynamiclogo2.gif border=0 height=30 
+            src="Dynamic Drive DHTML Scripts- Top Navigational Bar II_files/dynamiclogo2.gif" 
+            width=90></A></P>
+            <P align=left><FONT face=Verdana><A 
+            href="http://www.dynamicdrive.com/link.htm"><SMALL><SMALL>More 
+            images here.</SMALL></SMALL></A><BR></FONT><FONT color=#bffd97 
+            face=Verdana><SMALL>.</SMALL></FONT></P></TD></TR></TBODY></TABLE></CENTER></DIV></TD>
+    <TD width=19><IMG alt="spacer.gif (807 bytes)" height=1 
+      src="C:\Inetpub\wwwroot\AtYourService\Dynamic Drive DHTML Scripts- Top Navigational Bar II_files\spacer(1).gif" 
+      width=19></TD>
+    <TD align=left vAlign=top>
+      <P align=left><FONT face=Arial><BIG><STRONG><A 
+      href="http://dynamicdrive.com/">Home</A> </STRONG></BIG></FONT><IMG 
+      alt="Small4.gif (1046 bytes)" height=18 
+      src="Dynamic Drive DHTML Scripts- Top Navigational Bar II_files/Small4.gif" 
+      width=18> <BIG><STRONG><FONT face=Arial><A 
+      href="http://dynamicdrive.com/dynamicindex1">Menus and navigation 
+      systems</A> </FONT></STRONG></BIG><IMG alt="Small4.gif (1046 bytes)" 
+      height=18 
+      src="Dynamic Drive DHTML Scripts- Top Navigational Bar II_files/Small4.gif" 
+      width=18> <BIG><STRONG><FONT face=Arial>Here</FONT></STRONG></BIG></P>
+      <P align=left><STRONG><FONT face=Verdana>Top Navigational Bar II 
+      <SMALL>All</SMALL></FONT></STRONG></P>
+      <P align=left><FONT face=Verdana><SMALL><STRONG>Name: </STRONG><A 
+      href="mailto:webmaster@brainjar.com">Mike Hall</A><BR><STRONG>Homepage: 
+      </STRONG><A href="http://www.brainjar.com/" target=_blank>Brain 
+      Jar</A></SMALL><BR><STRONG><SMALL>Note:</SMALL></STRONG> 
+      <SMALL><SMALL>Layout code slightly modified by DD for easier 
+      implementation</SMALL></SMALL><BR><SMALL><STRONG>Updated:</STRONG><SMALL> 
+      00/07/18 Fixed IE 5.5 onMouseover menu bug. Only code of Step 3 
+      affected!</SMALL></SMALL></FONT></P>
+      <P align=left><FONT face=Verdana><SMALL><STRONG>Description: </STRONG>One 
+      of the best of it's kind, this is <A 
+      href="mailto:webmaster@brainjar.com">Mike's</A> two-level menu bar script. 
+      Use it to intelligently organize your site's links while adding a touch of 
+      DHTML coolness at the same time. Wonderfully useful and cool a creation 
+      this is.</SMALL></FONT></P>
+      <P align=left><FONT face=Verdana><SMALL>The script has been updated to 
+      support a variety of subtle, but interesting new features, most of them 
+      dealing with menu display. You can now specify a width for each individual 
+      menu category and sub category, invert the later so they are displayed 
+      above, instead of below, the bar (useful if your bar is at the bottom of 
+      the page), and align it left, center, or right. Finally, you can now have 
+      multiple menu bars on one page! The core code has also be streamlined for 
+      greater efficiency, plus a few bugs have been squashed.</SMALL></FONT></P>
+      <P align=left><FONT face=Verdana><SMALL><STRONG>Demo: </STRONG>Scroll 
+      up!</SMALL></FONT></P>
+      <HR SIZE=1>
+
+      <P align=left><STRONG><SMALL><FONT face=Verdana>Directions 
+      </FONT></SMALL></STRONG><A 
+      href="http://www.dynamicdrive.com/dynamicindex1/topnavbar_dev.htm" 
+      target=win2><IMG alt="Developer's View" border=0 height=19 
+      src="Dynamic Drive DHTML Scripts- Top Navigational Bar II_files/dview.gif" 
+      width=115></A></P>
+      <P align=left><SMALL><FONT face=Verdana><STRONG>Step 1: </STRONG>Insert 
+      the below into the &lt;head&gt; section of your page:</FONT></SMALL></P>
+      <FORM action="../_vti_bin/shtml.exe/AYS/Dynamic%20Drive%20DHTML%20Scripts-%20Top%20Navigational%20Bar%20II.htm" method=post webbot-action="--WEBBOT-SELF--" onSubmit=""><!--webbot bot="SaveResults" startspan U-File="_private/form_results.txt"
+      S-Format="TEXT/CSV" S-Label-Fields="TRUE" --><input TYPE="hidden" NAME="VTI-GROUP" VALUE="0"><!--webbot bot="SaveResults" endspan i-checksum="43374" -->
+      <P><!--webbot
+      bot="HTMLMarkup" startspan -->
+      <SCRIPT>
+<!--
+function highlight(x){
+document.forms[x].elements[0].focus()
+document.forms[x].elements[0].select()
+}
+//-->
+</SCRIPT>
+      <A href="javascript:highlight(0)" 
+      onmouseover="window.status='';return true"><IMG border=0 
+      src="Dynamic Drive DHTML Scripts- Top Navigational Bar II_files/select.gif"></A><!--webbot bot="HTMLMarkup" endspan --><BR><TEXTAREA cols=45 name=S1 rows=8 style="WIDTH: 98%" wrap=virtual>&lt;script language="JavaScript" src="navcond.js"&gt;&lt;/script&gt;
+&lt;script language="JavaScript"&gt;
+
+/*
+Top Navigational Bar II (By Mike Hall @ Brainjar.com)
+Last updated: 00/05/08
+Permission granted and modified by Dynamicdrive.com to include script in archive
+For this and 100's more DHTML scripts, visit http://dynamicdrive.com
+*/
+
+var myNavBar1 = new NavBar(0);
+var dhtmlMenu;
+
+//define menu items (first parameter of NavBarMenu specifies main category width, second specifies sub category width in pixels)
+//add more menus simply by adding more "blocks" of same code below
+
+dhtmlMenu = new NavBarMenu(100, 0);
+dhtmlMenu.addItem(new NavBarMenuItem("Home", "http://dynamicdrive.com"));
+myNavBar1.addMenu(dhtmlMenu);
+
+dhtmlMenu = new NavBarMenu(100, 120);
+dhtmlMenu.addItem(new NavBarMenuItem("News", ""));
+dhtmlMenu.addItem(new NavBarMenuItem("CNN", "http://www.cnn.com"));
+dhtmlMenu.addItem(new NavBarMenuItem("MSNBC", "http://msnbc.com"));
+dhtmlMenu.addItem(new NavBarMenuItem("ABCNews", "http://www.abcnews.com"));
+myNavBar1.addMenu(dhtmlMenu);
+
+dhtmlMenu = new NavBarMenu(110, 120);
+dhtmlMenu.addItem(new NavBarMenuItem("Technology", ""));
+dhtmlMenu.addItem(new NavBarMenuItem("News.com", "http://www.news.com"));
+dhtmlMenu.addItem(new NavBarMenuItem("Techweb", "http://www.techweb.com"));
+dhtmlMenu.addItem(new NavBarMenuItem("Wired", "http://www.wired.com"));
+dhtmlMenu.addItem(new NavBarMenuItem("Dynamic Drive", "http://www.dynamicdrive.com"));
+myNavBar1.addMenu(dhtmlMenu);
+
+dhtmlMenu = new NavBarMenu(100, 150);
+dhtmlMenu.addItem(new NavBarMenuItem("Search", ""));
+dhtmlMenu.addItem(new NavBarMenuItem("Yahoo", "http://www.yahoo.com"));
+dhtmlMenu.addItem(new NavBarMenuItem("Alta Vista", "http://www.altavista.com"));
+dhtmlMenu.addItem(new NavBarMenuItem("Infoseek", "http://www.infoseek.com"));
+dhtmlMenu.addItem(new NavBarMenuItem("Excite", "http://www.excite.com"));
+dhtmlMenu.addItem(new NavBarMenuItem("HotBot", "http://www.hotbot.com"));
+myNavBar1.addMenu(dhtmlMenu);
+
+dhtmlMenu = new NavBarMenu(100, 150);
+dhtmlMenu.addItem(new NavBarMenuItem("Webmaster", ""));
+dhtmlMenu.addItem(new NavBarMenuItem("Dynamic Drive", "http://dynamicdrive.com"));
+dhtmlMenu.addItem(new NavBarMenuItem("Website Abstraction", "http://wsabstract.com"));
+dhtmlMenu.addItem(new NavBarMenuItem("Freewarejava.com", "http://freewarejava.com"));
+dhtmlMenu.addItem(new NavBarMenuItem("BrainJar", "http://brainjar.com"));
+myNavBar1.addMenu(dhtmlMenu);
+
+//set menu colors
+myNavBar1.setColors("#000000", "#000000", "#C0C0C0", "#ffffff", "#666666", "#000000", "#cccccc", "#ffffff", "#000080")
+
+//uncomment below line to center the menu (valid values are "left", "center", and "right"
+//myNavBar1.setAlign("center")
+
+var fullWidth;
+
+function init() {
+
+  // Get width of window, need to account for scrollbar width in Netscape.
+
+  fullWidth = getWindowWidth() 
+    - (isMinNS4 &amp;&amp; getWindowHeight() &lt; getPageHeight() ? 16 : 0);
+
+  myNavBar1.resize(fullWidth);
+  myNavBar1.create();
+  myNavBar1.setzIndex(2);
+}
+&lt;/script&gt;</TEXTAREA></P></FORM>
+      <P align=left><SMALL><FONT face=Verdana><STRONG>Step 2: </STRONG>Add the 
+      below event handler into the &lt;BODY&gt; tag itself. as 
+      follows:</FONT></SMALL></P><FONT color=#000000 face="Courier New" size=1>
+      <P></FONT><FONT color=#000000 face=Courier size=2>&lt;body </FONT><FONT 
+      color=#ff0080 face=Courier size=2>onload="init()"</FONT><FONT 
+      color=#000000 face=Courier size=2>&gt;</FONT></P>
+      <P align=left><SMALL><FONT face=Verdana><STRONG>Step 3: </STRONG>Finally, 
+      the code of Step 1 references an external JavaScript file, which you'll 
+      need to download below, and upload along with your page. The file 
+      is</FONT></SMALL></P>
+      <P align=left><SMALL><FONT face=Verdana><STRONG><A 
+      href="Dynamic Drive DHTML Scripts- Top Navigational Bar II_files/navcond.js">navcond.js</A> 
+      </STRONG>(click or click with shift key depressed for NS 
+      users)</FONT></SMALL></P>
+      <P align=left><SMALL><FONT face=Verdana>Remember, upload the above to your 
+      webpage directory, or the script won't run!</FONT></SMALL></P>
+      <P align=left><SMALL><FONT face=Verdana>To configure the menu/sub menu 
+      items and their colors, simply edit the code of Step 1 above (see 
+      documentation inside). It it extremely straightforward.</FONT></SMALL></P>
+      <P align=left><SMALL><FONT face=Verdana>Enjoy!</FONT></SMALL></P>
+      <TABLE bgColor=#efefef border=0 cellSpacing=0 
+      style="BORDER-BOTTOM: rgb(255,0,0) 1px solid; BORDER-LEFT: rgb(255,0,0) 1px solid; BORDER-RIGHT: rgb(255,0,0) 1px solid; BORDER-TOP: rgb(255,0,0) 1px solid" 
+      width="100%">
+        <TBODY>
+        <TR>
+          <TD width="100%"><SMALL><FONT face=Arial><STRONG>Note:</STRONG> The 
+            above menu setup uses the external JavaScript file "navcond.js", 
+            which is a condensed version of the original "dhtmllib.js" and 
+            "navbar.js" files. It is condensed in that the contained code is 
+            stripped of ALL comments and linebreaks, resulting in a much smaller 
+            file download (25k vs 40k with the later two files). If your main 
+            concern is with legibility and ease-of-modification of the menu 
+            script (ie: for the sake of others in your company who may have to 
+            work with the menu), you should use "<A 
+            href="http://www.dynamicdrive.com/dynamicindex1/dhtmllib.js">dhtmllib.js</A>" 
+            and "<A 
+            href="http://www.dynamicdrive.com/dynamicindex1/navbar.js">navbar.js</A>" 
+            instead. Simply upload the two files in place of "navcond.js", and 
+            change the reference inside Code 1 to point to them instead. Note, 
+            however, in return for extensive documentation and legibility, you 
+            sacrifice download speed.</FONT></SMALL></TD></TR></TBODY></TABLE>
+      <P align=left><U><STRONG><FONT face=Verdana>Menu 
+      documentation</FONT></STRONG></U></P>
+      <P align=left><SMALL><FONT face=Verdana>While the below is not required 
+      reading, it is definitely recommended, and is helpful in getting to know 
+      how the menu works, and to harness some of its more advanced 
+      features.</FONT></SMALL></P>
+      <P align=left><SMALL><FONT face=Verdana><STRONG>1)</STRONG> <STRONG>Main 
+      menu methods</STRONG></FONT></SMALL></P>
+      <P align=left><SMALL><FONT face=Verdana>The following are the menu's core 
+      methods, which with the above code setup, you call using 
+      (myNavBar1.the_method()):</FONT></SMALL></P>
+      <TABLE border=1 cellPadding=2 cellSpacing=0 width="100%">
+        <TBODY>
+        <TR>
+          <TD align=left bgColor=#efefef vAlign=top width="30%"><SMALL><FONT 
+            face=Arial><B>setSizes(</B><I>border, padding, 
+            separator</I><B>)</B></FONT></SMALL></TD>
+          <TD align=left vAlign=top width="70%"><SMALL><FONT 
+            face=Arial>Defines the width of the border around headers and menus, 
+            the amount of spacing surrounding the item text and the width of the 
+            border between each item in a drop down.</FONT></SMALL></TD></TR>
+        <TR>
+          <TD align=left bgColor=#efefef vAlign=top width="30%"><SMALL><FONT 
+            face=Arial><B>setColors(</B><I>bdColor, hdrFgColor, hdrBgColor, 
+            hdrHiFgColor, hdrHiBgColor, itmFgColor, itmBgColor, itmHiFgColor, 
+            itmHiBgColor</I><B>)</B></FONT></SMALL></TD>
+          <TD align=left vAlign=top width="70%"><SMALL><FONT face=Arial>Sets 
+            the various colors used for the bar. The first value sets the border 
+            color. The next two set the text and background colors for a header 
+            and the two after that set the colors used when a header is 
+            highlighted. The last four values do the same for the menu items. 
+            </FONT></SMALL></TD></TR>
+        <TR>
+          <TD align=left bgColor=#efefef vAlign=top width="30%"><SMALL><FONT 
+            face=Arial><B>setFonts(</B><I>hdrFamily, hdrStyle, hdrWeight, 
+            hdrSize, itmFamily, itmStyle, itmWeight, itmSize</I><B>)</B> 
+            </FONT></SMALL></TD>
+          <TD align=left vAlign=top width="70%"><SMALL><FONT 
+            face=Arial>Defines the font used for the headers and the menu items. 
+            Standard CSS values may be used.</FONT></SMALL></TD></TR>
+        <TR>
+          <TD align=left bgColor=#efefef vAlign=top 
+            width="30%"><B><SMALL><FONT face=Arial>hide()</FONT></SMALL></B></TD>
+          <TD align=left vAlign=top width="70%"><SMALL><FONT face=Arial>Hides 
+            the navigation bar from view.</FONT></SMALL></TD></TR>
+        <TR>
+          <TD align=left bgColor=#efefef vAlign=top 
+            width="30%"><B><SMALL><FONT face=Arial>show()</FONT></SMALL></B></TD>
+          <TD align=left vAlign=top width="70%"><SMALL><FONT face=Arial>Make 
+            the navigation bar visible.</FONT></SMALL></TD></TR>
+        <TR>
+          <TD align=left bgColor=#efefef vAlign=top width="30%"><SMALL><FONT 
+            face=Arial><B>moveTo(</B><I>x, y</I><B>)</B></FONT></SMALL></TD>
+          <TD align=left vAlign=top width="70%"><SMALL><FONT face=Arial>Moves 
+            the bar to the specified coordinates. By default navigation bars 
+            will be positioned at (0, 0).</FONT></SMALL></TD></TR>
+        <TR>
+          <TD align=left bgColor=#efefef vAlign=top width="30%"><SMALL><FONT 
+            face=Arial><B>moveBy(</B><I>dx, dy</I><B>)</B></FONT></SMALL></TD>
+          <TD align=left vAlign=top width="70%"><SMALL><FONT face=Arial>Moves 
+            the bar by the given values.</FONT></SMALL></TD></TR>
+        <TR>
+          <TD align=left bgColor=#efefef vAlign=top width="30%"><SMALL><FONT 
+            face=Arial><B>setzIndex(</B><I>z</I><B>)</B> </FONT></SMALL></TD>
+          <TD align=left vAlign=top width="70%"><SMALL><FONT face=Arial>Sets 
+            the zIndex value of the bar and. drop down menus. This allows you to 
+            set the stacking order when a bar overlaps another bar or positioned 
+            element.</FONT></SMALL></TD></TR>
+        <TR>
+          <TD align=left bgColor=#efefef vAlign=top 
+            width="30%"><B><SMALL><FONT 
+          face=Arial>getWidth()</FONT></SMALL></B></TD>
+          <TD align=left vAlign=top width="70%"><SMALL><FONT 
+            face=Arial>Returns the current width of the bar. This is useful if 
+            you initially define a bar with a width of zero and want to find 
+            what the resulting width is after it has been 
+          created.</FONT></SMALL></TD></TR>
+        <TR>
+          <TD align=left bgColor=#efefef vAlign=top width="30%"><SMALL><FONT 
+            face=Arial><B>getMinWidth()</B> </FONT></SMALL></TD>
+          <TD align=left vAlign=top width="70%"><SMALL><FONT 
+            face=Arial>Returns the minimum width allowed for the bar. This is 
+            based on the total width required for the 
+        headers.</FONT></SMALL></TD></TR>
+        <TR>
+          <TD align=left bgColor=#efefef vAlign=top width="30%"><SMALL><FONT 
+            face=Arial><B>setAlign(</B><I>alignment</I><B>)</B></FONT></SMALL></TD>
+          <TD align=left vAlign=top width="70%"><SMALL><FONT face=Arial>Given 
+            a value of "left", "center" or "right" this will change the position 
+            of the headers relative to the bar. If a numeric value is given 
+            instead, the headers will be moved to the position that many pixels 
+            from the left edge of the bar. The headers will be repositioned 
+            dynamically if the bar has already been created. 
+        </FONT></SMALL></TD></TR>
+        <TR>
+          <TD align=left bgColor=#efefef vAlign=top width="30%"><SMALL><FONT 
+            face=Arial><B>resize(</B><I>width</I><B>)</B></FONT></SMALL></TD>
+          <TD align=left vAlign=top width="70%"><SMALL><FONT 
+            face=Arial>Resizes the bar to the given width. If already created 
+            the headers will be repositioned according the the bar's current 
+            alignment setting. Note that if you specify a width less than the 
+            value given by <B>getMinWidth()</B> the bar will be resized using 
+            the minimum required width instead.</FONT></SMALL></TD></TR>
+        <TR>
+          <TD align=left bgColor=#efefef vAlign=top 
+            width="30%"><B><SMALL><FONT 
+face=Arial>invert()</FONT></SMALL></B></TD>
+          <TD align=left vAlign=top width="70%"><SMALL><FONT 
+            face=Arial>Toggles the placement of the menus. By default they drop 
+            down below the bar but they can also be made to appear above the 
+            </FONT></SMALL></TD></TR></TBODY></TABLE>
+      <P align=left><SMALL><FONT face=Verdana><STRONG>2)</STRONG> <STRONG>Menu 
+      links targetting</STRONG></FONT></SMALL></P>
+      <P><SMALL><FONT face=Verdana>When an item or header is clicked on, the 
+      associated link string is checked. If it's a null string, nothing is done. 
+      If the string starts with "javascript:" the code that follows is executed. 
+      For anything else, the string is taken to be a URL and the window's 
+      <B>location</B> is set to that value, causing the link to be 
+      followed.</FONT></SMALL></P>
+      <P><SMALL><FONT face=Verdana>To setup a menu link so that the url loads in 
+      another frame, use the following javascript: url:</FONT></SMALL></P>
+      <P><FONT 
+      face=Arial><SMALL>javascript:parent.framename.location='http://dynamicdrive.com'</SMALL></FONT></P>
+      <P><SMALL><FONT face=Verdana>where "framename" is the name of the frame 
+      you wish to target.</FONT></SMALL></P>
+      <P><SMALL><FONT face=Verdana><STRONG>3)</STRONG> <STRONG>Displaying the 
+      menu across two frames?</STRONG></FONT></SMALL></P>
+      <P><SMALL><FONT face=Verdana>Frames are treated as individual windows by 
+      the browser. The bar and drop down menus <STRONG>cannot</STRONG> cross 
+      over the boundaries between frames, any more than an image on a page can 
+      be made to stick outside of the browser window. Likewise, you cannot have 
+      a drop down appear in a frame other than the one containing its parent 
+      bar. </FONT></SMALL></P>
+      <P align=left>
+      <SCRIPT language=JavaScript1.2>
+//Advertiser's index rotation script copyright Dynamicdrive.com
+var showhide=Math.round(Math.random()*100)
+if (showhide>25)
+document.write('<style>#ad{display:none;}</style>')
+</SCRIPT>
+
+      <P id=ad><FONT face=Arial><SMALL><STRONG>Advertiser's 
+      index</STRONG><BR>-Hostsearch.com- <A 
+      href="http://vsii.spinbox.net/?RC=20007024&amp;AI=4377"><B>Click 
+      here</B></A> to begin your webhost search!</SMALL><BR><SMALL><B>-<A 
+      href="http://vsii.spinbox.net/?RC=20007024&amp;AI=4923">MM 
+      Hosting</A></B>- Web hosting for 27 cents a day!</SMALL><BR><SMALL>-Web 
+      hosting that's above the rest (R): <A 
+      href="http://vsii.spinbox.net/?RC=20007024&amp;AI=4945"><B>Superb.net</B></A></SMALL></FONT></P>
+      <P><STRONG><FONT face=Arial><SMALL>Recommend Us!</SMALL><BR><SMALL>-<A 
+      href="http://tools.hitbox.com/bin/tellafriend/tellafriend.cgi?client_id=13713&amp;tool_instance_id=1&amp;action=tell">If 
+      you like Dynamic Drive, please recommend us to a 
+      friend...</A></SMALL></FONT></STRONG></P>
+      <P align=left><IMG height=18 
+      src="C:\Inetpub\wwwroot\AtYourService\Dynamic Drive DHTML Scripts- Top Navigational Bar II_files\small4(1).gif" 
+      width=18> <FONT color=#000000 
+      face=Verdana><STRONG>Legend</STRONG><BR><SMALL><STRONG>All-</STRONG> 
+      Script works with <EM>Netscape 4</EM>+ AND Internet Explorer 
+      4+</SMALL><BR><SMALL><STRONG>NS-</STRONG> Indicates script works with 
+      <EM>Netscape 4</EM> and above</SMALL><BR><SMALL><STRONG>IE- 
+      </STRONG>Indicates script works with <EM>Internet Explorer 4</EM> and 
+      above</SMALL><BR><SMALL><STRONG><SPAN 
+      style="BACKGROUND-COLOR: rgb(255,255,151)">IE5</SPAN>- </STRONG>Indicates 
+      script works with <EM>Internet Explorer 5</EM> and 
+above</SMALL></FONT></P>
+      <TABLE bgColor=#e7e7e7 border=0 cellPadding=0 cellSpacing=0 
+        width="100%"><TBODY>
+        <TR>
+          <TD width="100%"><FONT color=#000000 face=Verdana><STRONG>Subscribe 
+            to our newsletter!</STRONG><BR><SMALL>Want to be right here when new 
+            scripts are added? Subscribe to our FREE newsletter 
+            then!</SMALL></FONT>
+            <FORM 
+            action=http://freewarejava.com/cgi-bin/dynamicdrive/subscribe.pl 
+            method=post>
+            <TABLE border=0 width="100%">
+              <TBODY><COLDEFS><COLDEF></COLDEFS><ROWS>
+              <TR>
+                <TD COLSTART="1">
+                  <DIV align=left>
+                  <P><INPUT name=email size=25 value="Email address here"><!--webbot bot="HTMLMarkup" startspan --><INPUT 
+                  name=subscribe type=hidden value=subscribe><!--webbot
+          bot="HTMLMarkup" endspan --> <INPUT type=submit value="  Submit  "></P></DIV></TD></TR></ROWS></TBODY></TABLE></FORM></TD></TR></TBODY></TABLE>
+      <P align=center><FONT face=Verdana><SMALL><SMALL>Copyright © 1998-2000 <A 
+      href="http://www.dynamicdrive.com/">Dynamic Drive.</A> Please read <A 
+      href="http://dynamicdrive.com/notice.htm">Terms Of Use here</A> before 
+      using any of the 
+scripts.</SMALL></SMALL></FONT></P></TD></TR></TBODY></TABLE></BODY></HTML>
